@@ -1,7 +1,7 @@
 const fs = require('fs');
 const express = require('express');
 const bodyParser = require('body-parser');
-const login = require('ws3-fca');
+const login = require('fca-unofficial');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
